@@ -36,50 +36,26 @@ nav a:hover {
   
 .logo img {
     max-height: 100%;
-  }
-  
-  
-.container {
-	margin: 0 auto;
-	max-width: 800px;
-	padding: 20px;
 }
-p{
+.content-title h1 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+element.style {
+    font-size: 16px;
+    margin-top: 30px;
+    color: #000;
+}
+p {
+    margin: 0;
+    /* letter-spacing: 1px; */
     font-size: 30px;
-}
-h2{
-    font-size: 50px;
-}
-h1 {
-	text-align: center;
-}
-
-.product {
-	border: 1px solid #ccc;
-	margin: 10px;
-	padding: 10px;
-	text-align: center;
-}
-
-img {
-	max-width: 100%;
-}
-
-button {
-	background-color: #4CAF50;
-	border: none;
-	color: white;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 10px;
-	cursor: pointer;
-}
-
-button:hover {
-	background-color: #3e8e41;
+    line-height: 1.9;
+    color: #999;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .hotline-phone-ring-wrap {
     position: fixed;
