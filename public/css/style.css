@@ -3,10 +3,14 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: black;
+    background-color: #3D3D3D;
+}
+body{
+    background: url(https://www.dalattrip.com/dulich/media/2017/12/thanh-pho-da-lat.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 nav ul {
-    background: purple;
+    background: #FFD154;
     list-style-type: none;
     overflow: hidden;
     width: 100%;
@@ -21,9 +25,11 @@ nav li {
 }
 nav a{
     text-decoration: none;
+    font-weight: bolder;
     color: #fff;
     display: block;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 nav a:hover {
     background: #F1F1F1;
@@ -32,6 +38,7 @@ nav a:hover {
   
 .logo {
     height: 90px;
+    size-adjust: 90px;
   }
   
 .logo img {
@@ -43,6 +50,10 @@ nav a:hover {
 	margin: 0 auto;
 	max-width: 800px;
 	padding: 20px;
+    
+}
+.product{
+    background-color: #fff;
 }
 p{
     font-size: 30px;
