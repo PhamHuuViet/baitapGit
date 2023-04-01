@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quên mật khẩu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      form {
+        width: 300px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 0 5px #ccc;
+      }
+
+      input[type="email"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      button[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+
+      .error {
+        color: red;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Quên mật khẩu</h2>
+      <p>Nhập địa chỉ email của bạn để đặt lại mật khẩu</p>
+      <div id="error-message"></div>
+      <input type="email" id="email" placeholder="Email" required>
+      <button type="submit" id="submit-button">Gửi yêu cầu</button>
+    </form>
+    <script>
+      const form = document.querySelector('form');
+      const emailInput = document.getElementById('email');
+      const errorMessage = document.getElementById('error-message');
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        const email = emailInput.value;
+        if (!email) {
+          errorMessage.textContent = 'Vui lòng nhập địa chỉ email';
+        } else {
+          // Gửi yêu cầu đặt lại mật khẩu tới địa chỉ email
+          alert('Một liên kết đặt lại mật khẩu đã được gửi đến địa chỉ email của bạn');
+        }
+      });
+    </script>
+  </body>
+</html>
