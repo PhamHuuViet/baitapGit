@@ -9,6 +9,7 @@ on:
     paths:
       - '**.js'
       - '!docs/**'
+      - '**.yml'
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
