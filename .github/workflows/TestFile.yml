@@ -31,8 +31,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
-          A=10
-          echo Hello, world! $A lan vao ngay $(date + '%y-%m-%d')
+          echo Hello, world! vao ngay $(date + '%y-%m-%d')
           echo "TODAY=$(date + '%y-%m-%d')">>GITHUB_ENV
 
       # Runs a set of commands using the runners shell
