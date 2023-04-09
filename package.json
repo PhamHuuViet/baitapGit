@@ -81,5 +81,8 @@
   "bugs": {
     "url": "https://github.com/PhamHuuViet/baitapGit/issues"
   },
-  "homepage": "https://github.com/PhamHuuViet/baitapGit#readme"
+  "homepage": "https://github.com/PhamHuuViet/baitapGit#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
 }
