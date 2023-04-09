@@ -37,7 +37,7 @@ jobs:
           mode: exactly
           count: 0
           labels: "khong CI cai nay"
-      # Checks-out your repository under $GITHUB_WORKSPACE, so you job can access it
+      # Checks-out your repository under $GITHUB_WORKSPACE, s you job can access it
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
